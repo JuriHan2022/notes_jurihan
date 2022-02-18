@@ -80,7 +80,7 @@ p {
   margin: 5%;
 }
 .imagelink1 {
-  background-image: url("./images/pinterest_screenshot\ copy.png");
+  background-image: url("pinterest_screenshot\ copy.png");
   background-size: cover;
   overflow: hidden;
   min-width: 60%;
@@ -95,7 +95,7 @@ p {
   margin: 5%;
 }
 .imagelink2 {
-  background-image: url("./images/week02.png");
+  background-image: url("week02.png");
   background-size: cover;
   overflow: hidden;
   min-width: 60%;
@@ -111,7 +111,7 @@ p {
   margin: 5%;
 }
 .imagelink3 {
-  background-image: url("./images/week03.png");
+  background-image: url("week03.png");
   background-size: cover;
   overflow: hidden;
   min-width: 60%;

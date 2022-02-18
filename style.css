@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap");
+
+body {
+  font-family: "Beth Ellen", cursive;
+  font-size: 62.5%;
+}
+
+.container {
+  display: grid;
+  max-width: 1280px;
+  position: relative;
+  margin: auto;
+  grid-gap: 10px;
+  grid-template-areas:
+    "header header"
+    "left	right"
+    "footer	footer";
+  grid-template-columns: 2fr 10fr;
+  grid-template-rows: 150px 800px 200px;
+  overflow: scroll;
+}
+footer {
+  background-color: white;
+  grid-area: auto;
+  justify-content: baseline;
+}
+
+.header {
+  grid-area: header;
+  max-height: 20%;
+  overflow: show;
+  grid-area: 100%;
+  text-align: left;
+  font-size: 0.5rem;
+}
+
+.nav {
+  grid-area: left;
+  max-height: max-content;
+  font-size: 0.8rem;
+}
+.nav h2 {
+  background-color: yellow;
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.5rem;
+}
+
+.right {
+  grid-area: right;
+  border: 2px grey;
+  min-height: 200px;
+  min-width: 100px;
+  overflow: scroll;
+}
+
+.inside {
+  display: grid;
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+  grid-gap: 10px;
+  grid-template-areas:
+    "week01 week02"
+    "week03 week04";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  min-height: 800px;
+  grid-area: 1/1 / span 2 / span 4;
+  justify-content: baseline;
+  align-items: baselineß;
+  background-color: white;
+  padding: 1rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+.week01 {
+  box-shadow: 0.5rem 0.5rem 1rem 1rem rgb(210, 210, 210);
+  margin: 5%;
+}
+.imagelink1 {
+  background-image: url("./images/pinterest_screenshot\ copy.png");
+  background-size: cover;
+  overflow: hidden;
+  min-width: 60%;
+  min-height: 70%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem 1rem 1rem;
+}
+.week02 {
+  box-shadow: 0.5rem 0.5rem 1rem 1rem rgb(210, 210, 210);
+  margin: 5%;
+}
+.imagelink2 {
+  background-image: url("./images/week02.png");
+  background-size: cover;
+  overflow: hidden;
+  min-width: 60%;
+  min-height: 70%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.week03 {
+  box-shadow: 0.5rem 0.5rem 1rem 1rem rgb(210, 210, 210);
+  margin: 5%;
+}
+.imagelink3 {
+  background-image: url("./images/week03.png");
+  background-size: cover;
+  overflow: hidden;
+  min-width: 60%;
+  min-height: 70%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.week04 {
+  box-shadow: 0.5rem 0.5rem 1rem 1rem rgb(210, 210, 210);
+  margin: 5%;
+}
+.imagelink4 {
+  background-color: black;
+  background-size: cover;
+  overflow: hidden;
+  min-width: 60%;
+  min-height: 70%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+@media (max-width: 480px) {
+  .right {
+    position: relative;
+  }
+  .imagelink1,
+  .imagelink2,
+  .imagelink3,
+  .imagelink4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

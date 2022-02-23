@@ -63,7 +63,8 @@ p {
   grid-gap: 10px;
   grid-template-areas:
     "week01 week02"
-    "week03 week04";
+    "week03 week04"
+    "week04 week04";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   min-height: 800px;
@@ -73,6 +74,7 @@ p {
   background-color: white;
   padding: 1rem 1rem 1rem 1rem;
   text-align: center;
+  height: 100vh;
 }
 
 .week01 {
@@ -80,7 +82,7 @@ p {
   margin: 5%;
 }
 .imagelink1 {
-  background-image: url("pinterest_screenshot\ copy.png");
+  background-image: url("./images/pinterest_screenshot\ copy.png");
   background-size: cover;
   overflow: hidden;
   min-width: 60%;
@@ -95,7 +97,7 @@ p {
   margin: 5%;
 }
 .imagelink2 {
-  background-image: url("week02.png");
+  background-image: url("./images/week02.png");
   background-size: cover;
   overflow: hidden;
   min-width: 60%;
@@ -111,7 +113,7 @@ p {
   margin: 5%;
 }
 .imagelink3 {
-  background-image: url("week03.png");
+  background-image: url("./images/week03.png");
   background-size: cover;
   overflow: hidden;
   min-width: 60%;
@@ -127,12 +129,12 @@ p {
   margin: 5%;
 }
 .imagelink4 {
-  background-color: black;
+  background-image: url("./images/week04.png");
   background-size: cover;
-  overflow: hidden;
+  overflow: visible;
   min-width: 60%;
   min-height: 70%;
-  overflow: hidden;
+  overflow: visible;
   justify-content: center;
   align-items: center;
   margin: 1rem 1rem 1rem 1rem;

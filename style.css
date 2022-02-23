@@ -129,7 +129,7 @@ p {
   margin: 5%;
 }
 .imagelink4 {
-  background-image: url("./images/week04.png");
+  background-image: url("week04.png");
   background-size: cover;
   overflow: visible;
   min-width: 60%;
